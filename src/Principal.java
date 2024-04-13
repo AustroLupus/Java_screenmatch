@@ -13,12 +13,14 @@ public class Principal {
         System.out.println(miPelicula.totalDeLasEvaluaciones);
         System.out.println(miPelicula.calculaMedia());
 
+        System.out.println("\n");
+
         Pelicula otraPelicula = new Pelicula();
         otraPelicula.nombre = "Matrix";
         otraPelicula.fechaDeLanzamiento = 1998;
         otraPelicula.duracionEnMinutos = 180;
 
-//        otraPelicula.muestraFichaTecnica();
+        otraPelicula.muestraFichaTecnica();
 
     }
 }
