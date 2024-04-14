@@ -28,6 +28,22 @@ public class Pelicula {
         return totalDeLasEvaluaciones;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getFechaDeLanzamiento() {
+        return fechaDeLanzamiento;
+    }
+
+    public int getDuracionEnMinutos() {
+        return duracionEnMinutos;
+    }
+
+    public boolean isIncluidoEnElPlan() {
+        return incluidoEnElPlan;
+    }
+
     public void muestraFichaTecnica() {
         System.out.println("EL nombre de la película es: " + nombre);
         System.out.println("Su fecha de lanzamiento es: " + fechaDeLanzamiento);
