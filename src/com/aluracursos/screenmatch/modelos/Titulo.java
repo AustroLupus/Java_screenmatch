@@ -47,7 +47,7 @@ public class Titulo {
     public void muestraFichaTecnica() {
         System.out.println("EL nombre de la película es: " + nombre);
         System.out.println("Su fecha de lanzamiento es: " + fechaDeLanzamiento);
-        System.out.println("Duration en minutos: " + duracionEnMinutos);
+        System.out.println("Duration en minutos: " + getDuracionEnMinutos());
     }
 
     public void evalua(double nota) {
